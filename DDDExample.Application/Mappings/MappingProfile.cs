@@ -10,7 +10,8 @@ namespace DDDExample.Application.Mappings
   {
       public MappingProfile()
       {
-          CreateMap<Product, ProductDto>();
+                   CreateMap<Product, ProductDto>().ReverseMap();
+
           // Configuraciones de mapeo adicionales
       }
   }

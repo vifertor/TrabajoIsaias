@@ -10,10 +10,6 @@ C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.API\bin\Debug\net9.0\Auto
 C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.API\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.API\bin\Debug\net9.0\DnsClient.dll
 C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.API\bin\Debug\net9.0\Microsoft.OpenApi.dll
 C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.API\bin\Debug\net9.0\MongoDB.Bson.dll
 C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.API\bin\Debug\net9.0\MongoDB.Driver.dll

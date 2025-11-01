@@ -5,6 +5,8 @@ using DDDExample.Application.Mappings;
 using DDDExample.Application.Services;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
+using Microsoft.Extensions.DependencyInjection;
+using AutoMapper; // <- Asegúrate de tener este using
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,8 +35,8 @@ builder.Services.AddScoped<IMongoDatabase>(serviceProvider =>
     return client.GetDatabase(settings.DatabaseName);
 });
 
-// AutoMapper
-builder.Services.AddAutoMapper(typeof(MappingProfile));
+// AutoMapper (forma actual)
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 // Registrar repositorios y servicios
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
