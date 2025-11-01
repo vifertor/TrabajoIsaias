@@ -152,6 +152,16 @@
             "related": ".xml"
           }
         }
+      },
+      "DDDExample.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/DDDExample.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DDDExample.Domain.dll": {}
+        }
       }
     }
   },
@@ -453,11 +463,17 @@
         "microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
         "microsoft.identitymodel.tokens.nuspec"
       ]
+    },
+    "DDDExample.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DDDExample.Domain/DDDExample.Domain.csproj",
+      "msbuildProject": "../DDDExample.Domain/DDDExample.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "AutoMapper >= 15.1.0"
+      "AutoMapper >= 15.1.0",
+      "DDDExample.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -492,7 +508,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Isaias\\Downloads\\Trabajo de Isaias\\DDDExample.Domain\\DDDExample.Domain.csproj": {
+              "projectPath": "C:\\Users\\Isaias\\Downloads\\Trabajo de Isaias\\DDDExample.Domain\\DDDExample.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

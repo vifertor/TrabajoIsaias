@@ -1,0 +1,12 @@
+C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.Domain\obj\Debug\net9.0\DDDExample.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.Domain\obj\Debug\net9.0\DDDExample.Domain.AssemblyInfoInputs.cache
+C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.Domain\obj\Debug\net9.0\DDDExample.Domain.AssemblyInfo.cs
+C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.Domain\obj\Debug\net9.0\DDDExample.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.Domain\obj\Debug\net9.0\DDDExample.Domain.sourcelink.json
+C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.Domain\bin\Debug\net9.0\DDDExample.Domain.deps.json
+C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.Domain\bin\Debug\net9.0\DDDExample.Domain.dll
+C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.Domain\bin\Debug\net9.0\DDDExample.Domain.pdb
+C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.Domain\obj\Debug\net9.0\DDDExample.Domain.dll
+C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.Domain\obj\Debug\net9.0\refint\DDDExample.Domain.dll
+C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.Domain\obj\Debug\net9.0\DDDExample.Domain.pdb
+C:\Users\Isaias\Downloads\Trabajo de Isaias\DDDExample.Domain\obj\Debug\net9.0\ref\DDDExample.Domain.dll

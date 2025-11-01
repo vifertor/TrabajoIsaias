@@ -6,9 +6,11 @@ using DDDExample.Domain.Entities;
 
 namespace DDDExample.Domain.Repositories
 {
- public interface IProductRepository : IRepository<Product>
+ public interface IProductRepository
   {
-      Task<IEnumerable<Product>> GetProductsByPriceRangeAsync(decimal minPrice, decimal maxPrice);
-      Task<IEnumerable<Product>> GetProductsInStockAsync();
-  }
+        Task<IEnumerable<Product>> GetAllAsync();
+        Task<Product?> GetByIdAsync(Guid id);
+        Task AddAsync(Product product);
+        Task UpdateAsync(Product product);
+        Task DeleteAsync(Guid id);  }
 }

@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 namespace DDDExample.Domain.Entities
 {
   // Ejemplo: Product.cs
-public class Product : Entity
+public class Product 
 {
-    public string Name { get; private set; }
-    public string Description { get; private set; }
-    public decimal Price { get; private set; }
-    public int Stock { get; private set; }
-    
+           public Guid Id { get; set; } = Guid.NewGuid();
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public decimal Price { get; set; }
+        public int Stock { get; set; }
     // Constructor y métodos de negocio
 }
 }
