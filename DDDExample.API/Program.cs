@@ -6,7 +6,12 @@ using DDDExample.Application.Services;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using Microsoft.Extensions.DependencyInjection;
-using AutoMapper; // <- Asegúrate de tener este using
+
+using DDDExample.Domain.Repositories;
+using Microsoft.AspNetCore.Mvc;
+using AutoMapper;
+using DDDExample.Application.Settings;
+using DDDExample.API.Middleware; // <- Asegúrate de tener este using
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +24,15 @@ builder.Services.AddSwaggerGen();
 
 // Leer configuración de MongoDB desde appsettings.json
 builder.Services.Configure<MongoDBSettings>(builder.Configuration.GetSection("MongoDB"));
+builder.Services.Configure<MemoryMetricsSettings>(builder.Configuration.GetSection("MemoryMetrics"));
+builder.Services.AddScoped<IMemoryMetricsRepository, MemoryMetricsRepository>();
+builder.Services.AddHostedService<MemoryMetricsService>();
+
+builder.Services.AddScoped<IResponseTimeLogRepository, ResponseTimeLogRepository>();
+
+
+
+
 
 // Registrar cliente MongoDB
 builder.Services.AddSingleton<IMongoClient>(serviceProvider =>
@@ -53,7 +67,7 @@ if (app.Environment.IsDevelopment())
 
 // HTTP → HTTPS
 app.UseHttpsRedirection();
-
+app.UseResponseTimeLog();
 // Map Controllers
 app.MapControllers();
 

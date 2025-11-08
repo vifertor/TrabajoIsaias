@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Isaias\\Downloads\\Trabajo de Isaias\\DDDExample.Domain\\DDDExample.Domain.csproj": {}
+    "C:\\Users\\Isaias\\Downloads\\TrabajoIsaias-master\\TrabajoIsaias-master\\DDDExample.Domain\\DDDExample.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Isaias\\Downloads\\Trabajo de Isaias\\DDDExample.Domain\\DDDExample.Domain.csproj": {
+    "C:\\Users\\Isaias\\Downloads\\TrabajoIsaias-master\\TrabajoIsaias-master\\DDDExample.Domain\\DDDExample.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Isaias\\Downloads\\Trabajo de Isaias\\DDDExample.Domain\\DDDExample.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Isaias\\Downloads\\TrabajoIsaias-master\\TrabajoIsaias-master\\DDDExample.Domain\\DDDExample.Domain.csproj",
         "projectName": "DDDExample.Domain",
-        "projectPath": "C:\\Users\\Isaias\\Downloads\\Trabajo de Isaias\\DDDExample.Domain\\DDDExample.Domain.csproj",
+        "projectPath": "C:\\Users\\Isaias\\Downloads\\TrabajoIsaias-master\\TrabajoIsaias-master\\DDDExample.Domain\\DDDExample.Domain.csproj",
         "packagesPath": "C:\\Users\\Isaias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Isaias\\Downloads\\Trabajo de Isaias\\DDDExample.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Isaias\\Downloads\\TrabajoIsaias-master\\TrabajoIsaias-master\\DDDExample.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
